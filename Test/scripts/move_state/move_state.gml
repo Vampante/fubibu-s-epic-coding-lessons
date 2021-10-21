@@ -26,18 +26,18 @@ y -= yspd;
  
  
 
-switch(false){
+switch(face){
 	case 0:
 		sprite_index = RIGHT;
 		break;
 	case 2: 
-		sprite_index = LEFT;
+		sprite_index = FRONT;
 		break;
 	case 4:
-		sprite_index = BACK;
+		sprite_index = LEFT;
 		break;
 	case 6:
-		sprite_index = FRONT;
+		sprite_index = BACK;
 		break;
 	
 }
