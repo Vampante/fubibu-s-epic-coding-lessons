@@ -16,7 +16,7 @@ state = move_state;
 face = 0;
 
 //Costants, they are like variable but instead of being variable are constant :)
-#macro RIGHT spr_right
-#macro LEFT spr_left
-#macro BACK spr_back
-#macro FRONT spr_front
+#macro RIGHT spr_right_anim
+#macro LEFT spr_left_anim
+#macro BACK spr_back_anim
+#macro FRONT spr_front_anim

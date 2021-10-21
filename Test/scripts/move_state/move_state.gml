@@ -24,7 +24,11 @@ x += xspd;
 
 y -= yspd;
  
- 
+ //static sprite via stop moving
+ if(len == 0){
+	image_index = 0;
+ }
+	
 
 switch(face){
 	case 0:
