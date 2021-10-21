@@ -11,7 +11,7 @@ if(xaxis == 0) && (yaxis == 0) {
 	len = 0;
 }
 else {
-	len = spd
+	len = spd;
 }
 
  //Get the scoreboards i mean variables
@@ -21,6 +21,6 @@ else {
  
 x += xspd;
 
-y += yspd;
+y -= yspd;
  
 }
