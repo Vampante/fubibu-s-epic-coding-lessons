@@ -11,3 +11,12 @@ dir = 0;
 
 //Movement gaming + collision I think
 state = move_state;
+
+//Sprite moment.
+face = 0;
+
+//Costants, they are like variable but instead of being variable are constant :)
+#macro RIGHT spr_right
+#macro LEFT spr_left
+#macro BACK spr_back
+#macro FRONT spr_front

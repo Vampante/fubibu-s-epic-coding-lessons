@@ -12,6 +12,7 @@ if(xaxis == 0) && (yaxis == 0) {
 }
 else {
 	len = spd;
+	get_face();
 }
 
  //Get the scoreboards i mean variables
@@ -23,4 +24,21 @@ x += xspd;
 
 y -= yspd;
  
+ 
+
+switch(false){
+	case 0:
+		sprite_index = RIGHT;
+		break;
+	case 2: 
+		sprite_index = LEFT;
+		break;
+	case 4:
+		sprite_index = BACK;
+		break;
+	case 6:
+		sprite_index = FRONT;
+		break;
+	
+}
 }
