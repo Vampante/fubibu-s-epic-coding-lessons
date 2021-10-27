@@ -9,6 +9,9 @@ yspd = 0;
 len = 0;
 dir = 0;
 
+// Collision with mini pantes
+epicness = 0;
+
 //Movement gaming + collision I think
 state = move_state;
 

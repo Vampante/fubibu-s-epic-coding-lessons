@@ -1,3 +1,4 @@
+//@description literally the name
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function move_state(){
@@ -29,7 +30,7 @@ y -= yspd;
 	image_index = 0;
  }
 	
-
+ //switch sprites whenever the player turns around
 switch(face){
 	case 0:
 		sprite_index = RIGHT;

@@ -3,9 +3,5 @@
 get_input();
 move_state();
 depth= -y;
-script_execute(move_state);
-
-
-if keyboard_check(ord("E")){
-draw_text(obj_player.x,obj_player.y, "gegebobo")
-}
+script_execute(move_state)
+draw_text(obj_player.x,obj_player.y,"your mom gay")
